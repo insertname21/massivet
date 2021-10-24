@@ -1,5 +1,6 @@
 import React from "react";
 import Horse from "./video/Horse.mp4";
+import '../index.css';
 import { useSpring, animated,config } from 'react-spring'
 import { Nav } from "react-bootstrap";
 import {Link} from 'react-router-dom'
