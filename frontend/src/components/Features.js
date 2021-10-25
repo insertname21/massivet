@@ -12,7 +12,7 @@ function Features() {
           <div >
             <section class="showcase">
               <video autoPlay loop muted>
-                <source src={Horse} type="video/mp4" />
+                <source src="https://massivet.s3.us-east-2.amazonaws.com/Horse.mp4"  />
               </video>
 
               <div class="overlay"></div>
