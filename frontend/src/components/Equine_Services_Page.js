@@ -10,19 +10,7 @@ function Equine_Services() {
         </div>
     <Row>
 
-    <Card border="dark" style={{ width: '18rem', height: '20rem' }} className="rounded p-3 my-3 cards">
-    <Card.Img variant="top" src="/images/LamenessInvestigations.jpg" style={{ height: '180px' }}/>
-    <Card.Body>
-    <Card.Title as="div">
-      <strong>Euthanasia</strong>
-    </Card.Title>
-      
-    <div class="text">
-                
-                <Link to={`/Equine_Services/LamenessInvestigation`}>More Info</Link>
-              </div>
-    </Card.Body>
-  </Card>
+
 
 
 
@@ -73,6 +61,19 @@ function Equine_Services() {
                 <Link to="/Products">More Info</Link>
               </div>
       </Link>
+    </Card.Body>
+  </Card>
+  <Card border="dark" style={{ width: '18rem', height: '20rem' }} className="rounded p-3 my-3 cards">
+    <Card.Img variant="top" src="/images/LamenessInvestigations.jpg" style={{ height: '180px' }}/>
+    <Card.Body>
+    <Card.Title as="div">
+      <strong>End of Life Care</strong>
+    </Card.Title>
+      
+    <div class="text">
+                
+                <Link to={`/Equine_Services/LamenessInvestigation`}>More Info</Link>
+              </div>
     </Card.Body>
   </Card>
   

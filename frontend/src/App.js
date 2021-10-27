@@ -11,12 +11,12 @@ function App() {
     <Router>
       <Header />
       <main className="py-20">
-        <Container>
+        
           <Route path="/" component={Features} exact />
           <Route path="/Equine_Services" component={Equine_Services} exact />
           <Route path="/Equine_Services/LamenessInvestigation" component={Lameness} exact />
 
-        </Container>
+        
       </main>
       <Footer />
     </Router>

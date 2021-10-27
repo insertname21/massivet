@@ -3,24 +3,20 @@ import { Container, Row, Col } from "react-bootstrap";
 
 function Footer() {
   return (
-    <div>
+    <div class="Footer">
       <Row>
-        <Col>
-          <h2>Contact Info:</h2>
-
-          <p>Location: 4940 Pioneer Rd,Medford, OR 97501</p>
-          <p>Telephone:541-636-1191</p>
-          <p>Email: info@massievet.com</p>
+        <Col style={{padding: '10px '}}>
+          <img src="\images\accrt\AAEP.image.jpg" />
         </Col>
-
-        <Col>
-          <img src="\images\accrt\AAEP.image.webp" />
+        <Col style={{padding: '10px '}}>
+          <img src="\images\accrt\AVMA.jpg" />
         </Col>
-        <Col>
-          <img src="\images\accrt\AVMA.webp" />
+        <Col  >
+          
+          <img src="\images\accrt\AABP.jpg" />
         </Col>
         <Col>
-          <img src="\images\accrt\AABP.webp" />
+          <img src="\images\accrt\CVMA.jpg" />
         </Col>
       </Row>
     </div>
