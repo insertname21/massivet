@@ -1,12 +1,15 @@
 import React from "react";
 import { Card, Button, Col, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import { useSpring, animated,config } from 'react-spring'
 
 function Lameness() {
+  const props = useSpring({ to: { opacity: 1 }, from: { opacity: 0 }, config: config.molasses,})
   return (
+    <animated.div style={props}>
     <div class="article" >
       <Row>
-      <Col><h1>Lameness Investigation</h1>
+      <Col><h1 >Lameness Investigation</h1>
       <p>There are numerous causes of lameness and poor performance in horses, 
         some of which can be diagnosed relatively easily and some of which cannot; in more complicated cases, 
         detailed clinical evaluations and the use of advanced diagnostic techniques may be required.</p>
@@ -37,6 +40,7 @@ function Lameness() {
       
       
     </div>
+    </animated.div>
   );
 }
 

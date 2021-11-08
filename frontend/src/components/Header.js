@@ -23,6 +23,13 @@ function headers() {
             <LinkContainer to="/Equine_Services">
             <Nav.Link >Equine Services</Nav.Link>
             </LinkContainer>
+            <LinkContainer to="/Farm_Services">
+            <Nav.Link >Farm Animal Services</Nav.Link>
+            </LinkContainer>
+            
+            <LinkContainer to="/Small_Animal_Services">
+            <Nav.Link >Small animal services</Nav.Link>
+            </LinkContainer>
 
 
 

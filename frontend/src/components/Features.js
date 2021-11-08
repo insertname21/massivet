@@ -2,14 +2,15 @@ import React from "react";
 import Horse from "./video/Horse.mp4";
 import '../index.css';
 import { useSpring, animated,config } from 'react-spring'
-import { Nav } from "react-bootstrap";
+import { Container, Nav } from "react-bootstrap";
 import {Link} from 'react-router-dom'
 
 function Features() {
   const props = useSpring({ to: { opacity: 1 }, from: { opacity: 0 }, config: config.molasses,})
   return (
         <animated.div style={props}>
-          <div >
+          <Container>
+          <div id="main">
             <section class="showcase">
               <video autoPlay loop muted>
                 <source src="https://massivet.s3.us-east-2.amazonaws.com/massie+vet+video.mp4"  />
@@ -26,6 +27,7 @@ in Jackson County and Surrounding Areas
               </div>
             </section>
           </div>
+          </Container>
         </animated.div>
 
     

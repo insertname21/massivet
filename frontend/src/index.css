@@ -13,7 +13,7 @@ code {
 }
 
 main {
-  min-height: 90vh;
+  min-height: 100vh;
 }
 
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
@@ -35,7 +35,7 @@ header {
   position: absolute;
   right: 0;
   width: 100%;
-  min-height: 90%;
+  min-height: 100%;
   padding: 100px;
   display: flex;
   justify-content: space-between;
@@ -170,17 +170,23 @@ header {
   z-index: 10;
 }
 .article {
-  padding-top: 10%;
+  padding-top: 200px;
   margin-left: 5%;
-  width: 90%;
+
   position: relative;
   min-height: 90%;
   background-position: center; 
-  background-color:rgba(0, 0, 0, 0.25);
   z-index: 2;
 }
-.Footer {
+.article h1{
+  color: #24647c
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
   width: 95%;
-  height: 10%;
-  position: relative;
+  background-color: red;
+  color: white;
+  text-align: center;
 }

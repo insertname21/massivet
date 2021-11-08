@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 function Footer() {
   return (
+    <container>
     <div class="Footer">
       <Row>
         <Col style={{padding: '10px '}}>
@@ -20,6 +21,7 @@ function Footer() {
         </Col>
       </Row>
     </div>
+    </container>
   );
 }
 

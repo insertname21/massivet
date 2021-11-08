@@ -7,10 +7,11 @@ function Equine_Services() {
   const props = useSpring({ to: { opacity: 1 }, from: { opacity: 0 }, config: config.molasses,})
   return (
     <animated.div style={props}>
-      <Container>
+    <Container>
+    
     <div class="article">
-        <h1 >Equine Services</h1>
-
+        <h1 >Farm Animal Services</h1>
+  
     <Row>
 
 
