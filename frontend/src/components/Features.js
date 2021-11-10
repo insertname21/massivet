@@ -18,10 +18,11 @@ function Features() {
 
               <div class="overlay"></div>
               <div class="text">
-                <h3>A mobile vet you can trust</h3>
+                <h3>A mobile vet</h3>
+                <h3>you can trust</h3>
                 <p>
-                A Mobile Veterinary Service Treating Farm animals Like Family 
-in Jackson County and Surrounding Areas
+                Serving Southern Oregon and Northern California
+
                 </p>
                 <Link to="/Products">Contact Us</Link>
               </div>
