@@ -23,8 +23,8 @@ main {
   box-sizing: border-box;
 }
 header {
-  width: 100%;
-
+  width: 95%;
+  display:inline-block;
   z-index: 1000;
 }
 .top {
@@ -170,7 +170,7 @@ header {
   z-index: 10;
 }
 .article {
-  padding-top: 200px;
+  padding-top: 150px;
   margin-left: 5%;
 
   position: relative;
@@ -181,12 +181,36 @@ header {
 .article h1{
   color: #24647c
 }
+.article h3{
+  color: #24647c
+}
 .footer {
-  position: fixed;
+
   left: 0;
-  bottom: 0;
-  width: 95%;
-  background-color: red;
+  padding-top: -50px;
+  width: 100%;
+  background-color: #24647c;
   color: white;
-  text-align: center;
+  text-align: left;
+  padding: 25px;
+}
+.footer h1{
+  color: white
+}
+.footer h1{
+  color: white
+}
+.footer h3{
+  color: white
+}
+.footer p{
+  color: white
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer a{
+  color: white
 }

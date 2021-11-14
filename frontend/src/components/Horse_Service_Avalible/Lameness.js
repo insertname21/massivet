@@ -28,8 +28,9 @@ function Lameness() {
                  <Col >
                  
       <iframe 
-        width="90%"
-        height="90%"
+        overflow= "auto"
+        width="750px"
+        height="400px"
         src="https://www.youtube.com/embed/M98VPRpRBDw"
         title="YouTube video player"
         frameborder="0"
@@ -40,7 +41,9 @@ function Lameness() {
       </Col>
       
       </Row>
-      
+      <row>
+    <h3 >Aditional Info</h3>
+    </row>
       
     </div>
     <div class="article d-xl-none" >
@@ -63,21 +66,27 @@ function Lameness() {
       
                     
       <iframe 
-        width="50%"
+        height="100%"
+
+        
+        
 
         src="https://www.youtube.com/embed/M98VPRpRBDw"
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
+        allowfullscreen=""
       ></iframe>
       
       
       
    
-      
-      
+      <row>
+    <h3>Aditional Info</h3>
+    </row>
+ 
     </div>
+
     </animated.div>
   );
 }

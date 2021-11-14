@@ -13,7 +13,7 @@ function headers() {
         </LinkContainer>
 
         <Navbar.Toggle />
-        <Navbar.Collapse>
+        <Navbar.Collapse class="responsive-navbar-nav">
           <Nav className="mr-auto my-2 my-lg-0">
             <LinkContainer to="/Equine_Services">
               <Nav.Link>Equine Services</Nav.Link>
