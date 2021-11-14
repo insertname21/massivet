@@ -7,6 +7,7 @@ import Equine_Services from "./components/Equine_Services_Page";
 import Farm_Services from "./components/Farm_Animal_Services_Page.js";
 import Small_Services from "./components/Small_Animal_Services_Page.js";
 import Lameness from "./components/Horse_Service_Avalible/Lameness.js";
+import "./components/observer.js";
 
 
 function App() {
