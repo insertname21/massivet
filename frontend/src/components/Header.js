@@ -2,18 +2,21 @@ import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import logo from "./images/MMVS Logo graded.jpg";
 import { LinkContainer } from "react-router-bootstrap";
+import { Container } from "react-bootstrap";
+
 function headers() {
   return (
     <header>
-      <Navbar bg="light" expand="lg" fixed="top">
+      <Navbar collapseOnSelect bg="light" expand="lg" fixed="top">
+      <Container>
         <LinkContainer to="/">
           <Nav.Link>
             <img src={logo} height="50px" />
           </Nav.Link>
         </LinkContainer>
 
-        <Navbar.Toggle />
-        <Navbar.Collapse class="responsive-navbar-nav">
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto my-2 my-lg-0">
             <LinkContainer to="/Equine_Services">
               <Nav.Link>Equine Services</Nav.Link>
@@ -35,6 +38,7 @@ function headers() {
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
+        </Container>
       </Navbar>
     </header>
   );

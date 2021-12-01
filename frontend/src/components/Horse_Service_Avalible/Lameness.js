@@ -4,11 +4,18 @@ import { Link } from "react-router-dom";
 import { useSpring, animated,config } from 'react-spring'
 
 function Lameness() {
-  const props = useSpring({ to: { opacity: 1 }, from: { opacity: 0 }, config: config.molasses,})
+  const props1 = useSpring({   to: {x:0, opacity: 1 },
+    from: {x:-500, opacity: 0 },
+     config: config.molasses,})
+     const props2 = useSpring({   to: {x:0, opacity: 1 },
+      from: {x:-10, opacity: 0 },
+       config: config.molasses,})
   return (
-    <animated.div style={props}>
+    <animated.div style={props1}>
     <div class="article d-none d-xl-block" >
+      
       <Row >
+      
       <Col><h1 >Lameness Investigation</h1>
       <p>There are numerous causes of lameness and poor performance in horses, 
         some of which can be diagnosed relatively easily and some of which cannot; in more complicated cases, 
@@ -26,6 +33,7 @@ function Lameness() {
                  <p>For further information on lameness or poor perfomance investigations, see under 'Useful Info' the section on lameness.</p></Col>
       
                  <Col >
+                 
                  
       <iframe 
         overflow= "auto"
@@ -86,8 +94,8 @@ function Lameness() {
     </row>
  
     </div>
-
-    </animated.div>
+</animated.div>
+    
   );
 }
 

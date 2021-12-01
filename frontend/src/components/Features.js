@@ -29,7 +29,7 @@ function Features() {
               </p>
 
               <p>livestock and equine care</p>
-              <Link to="/Products">Contact Us</Link>
+              <Link to="/Contact">Contact Us</Link>
             </div>
           </section>
         </div>
