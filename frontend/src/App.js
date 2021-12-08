@@ -10,6 +10,7 @@ import Small_Services from "./components/Small_Animal_Services_Page.js";
 import Lameness from "./components/Horse_Service_Avalible/Lameness.js";
 import New_Client from "./components/NewClient";
 import ContactUs from "./components/ContactUs";
+import Events from "./components/Events.js";
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
           <Route path="/Equine_Services/LamenessInvestigation" component={Lameness} exact />
           <Route path="/New_Client" component={New_Client} exact />
           <Route path="/Contact" component={ContactUs} exact />
+          <Route path="/Events" component={Events} exact />
 
           
       </main>

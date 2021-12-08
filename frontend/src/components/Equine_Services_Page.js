@@ -7,7 +7,7 @@ function Equine_Services() {
   const props = useSpring({ to: { opacity: 1 }, from: { opacity: 0 }, config: config.molasses,})
   return (
     <animated.div style={props}>
-      <Container>
+
     <div class="article">
         <h1 >Equine Services</h1>
 
@@ -15,15 +15,29 @@ function Equine_Services() {
 
 
 
+    <Card style={{ width: '18rem', padding: '0px' }}>
+  <Card.Img variant="top" src="/images/1125620197.jpeg" />
+  <Card.Body>
+    <Card.Title>Card Title</Card.Title>
+    <Card.Text>
+      Some quick example text to build on the card title and make up the bulk of
+      the card's content.
+    </Card.Text>
+    <Button variant="primary">Go somewhere</Button>
+  </Card.Body>
+</Card>
 
-
-    <Card border="dark" style={{ width: '18rem', height: '20rem' }} className="rounded p-3 my-3">
-    <Card.Img src="/images/DiagnosticImaging.jpg" style={{ height: '180px' }}/>
+    
+    <Card   style={{ width: '18rem', padding: '0px' }} className="rounded">
+    <Card.Img variant="top" src="/images/DiagnosticImaging.jpg" />
     <Card.Body>
-    <Card.Title as="div">
+    <Card.Title>
       <strong>Lameness Investigations</strong>
     </Card.Title>
-      
+    <Card.Text>
+      Some quick example text to build on the card title and make up the bulk of
+      the card's content.
+    </Card.Text>
     <div class="text">
                 
                 <Link to={`/Equine_Services/LamenessInvestigation`}>More Info</Link>
@@ -98,7 +112,7 @@ function Equine_Services() {
   </Row>
   
   </div>
-  </Container>
+
   </animated.div>
   );
 }

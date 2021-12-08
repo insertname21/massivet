@@ -32,6 +32,9 @@ function headers() {
             <LinkContainer to="/Contact">
               <Nav.Link href="#Avalible_Models">Contact us</Nav.Link>
             </LinkContainer>
+            <LinkContainer to="/new_client">
+              <Nav.Link >New client</Nav.Link>
+            </LinkContainer>
 
             <Nav.Link href="https://massiemobilevetservices.securevetsource.com/site/view/202423_Home.pml">
               Pharmacy
