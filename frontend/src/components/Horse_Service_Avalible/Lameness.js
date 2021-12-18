@@ -13,24 +13,16 @@ function Lameness() {
   return (
     <animated.div style={props1}>
     <div class="article d-none d-xl-block" >
-      
+    <h1 >Appointment Types</h1>
       <Row >
       
-      <Col><h1 >Lameness Investigation</h1>
-      <p>There are numerous causes of lameness and poor performance in horses, 
-        some of which can be diagnosed relatively easily and some of which cannot; in more complicated cases, 
-        detailed clinical evaluations and the use of advanced diagnostic techniques may be required.</p>
-        <p>Horses referred to Bell Equine for lameness and poor performance related to musculoskeletal pain will undergo an evaluation 
-          by one of our specialists. As well as a trot up areas to allow assessment in hand, we also have an all-weather surface to allow 
-          assessment during lunging and ridden exercise. We have experienced nurses who facilitate nerve and joint blocking, with the aim 
-          that this is stress-free for horses and owners alike. Our clinic is fully equipped with up-to date and advanced diagnostic imaging 
-          equipment, including radiography, ultrasonography, nuclear scintigraphy, CT and MRI.</p>
-          <p>It is our aim to work closely with farriers, physiotherapists and osteopaths as appropriate so that,
-             through a team approach, we can maximise your horse's chance to return to successful athletic function.</p>
-             <p>Many of our ambulatory vets also have an interest in lameness diagnosis and we
-                have the capability to perform lameness evaluation, radiography and ultrasonography on a mobile basis where transport of the horse
-                 is not possible or advisable.</p>
-                 <p>For further information on lameness or poor perfomance investigations, see under 'Useful Info' the section on lameness.</p></Col>
+      <Col>
+      
+      <p> Lameness is one of the most common issues horse owners will encounter. Lameness can vary from severe cases associated with fractures of hoof abscesses to subtle hoof issues which can cause pain and a decrease in overall performance. </p>
+        <p>A lameness investigation includes a thorough examination of both the level of lameness and the legs affected. Palpation of leg, hoof testers, and flexion tests are used initially, but if there is no obvious cause, then nerve blocks may be administered to localise the problem and further investigations using our state-of-the-art VetRay, high-end digital radiology, or ultrasound methods may be necessary. 
+</p>
+          <p>Some horses may require referral for specialised tests such as scintigraphy (bone-scanning) or MRI and we will advise you if these are required. Contact us at 541-636-1191 to schedule a lameness investigation appointment today.
+</p></Col>
       
                  <Col >
                  
@@ -49,28 +41,18 @@ function Lameness() {
       </Col>
       
       </Row>
-      <row>
-    <h3 >Aditional Info</h3>
-    </row>
+ 
       
     </div>
     <div class="article d-xl-none" >
      
       <div><h1 >Lameness Investigation</h1>
-      <p>There are numerous causes of lameness and poor performance in horses, 
-        some of which can be diagnosed relatively easily and some of which cannot; in more complicated cases, 
-        detailed clinical evaluations and the use of advanced diagnostic techniques may be required.</p>
-        <p>Horses referred to Bell Equine for lameness and poor performance related to musculoskeletal pain will undergo an evaluation 
-          by one of our specialists. As well as a trot up areas to allow assessment in hand, we also have an all-weather surface to allow 
-          assessment during lunging and ridden exercise. We have experienced nurses who facilitate nerve and joint blocking, with the aim 
-          that this is stress-free for horses and owners alike. Our clinic is fully equipped with up-to date and advanced diagnostic imaging 
-          equipment, including radiography, ultrasonography, nuclear scintigraphy, CT and MRI.</p>
-          <p>It is our aim to work closely with farriers, physiotherapists and osteopaths as appropriate so that,
-             through a team approach, we can maximise your horse's chance to return to successful athletic function.</p>
-             <p>Many of our ambulatory vets also have an interest in lameness diagnosis and we
-                have the capability to perform lameness evaluation, radiography and ultrasonography on a mobile basis where transport of the horse
-                 is not possible or advisable.</p>
-                 <p>For further information on lameness or poor perfomance investigations, see under 'Useful Info' the section on lameness.</p></div>
+      <p> Lameness is one of the most common issues horse owners will encounter. Lameness can vary from severe cases associated with fractures of hoof abscesses to subtle hoof issues which can cause pain and a decrease in overall performance. </p>
+        <p>A lameness investigation includes a thorough examination of both the level of lameness and the legs affected. Palpation of leg, hoof testers, and flexion tests are used initially, but if there is no obvious cause, then nerve blocks may be administered to localise the problem and further investigations using our state-of-the-art VetRay, high-end digital radiology, or ultrasound methods may be necessary. 
+</p>
+          <p>Some horses may require referral for specialised tests such as scintigraphy (bone-scanning) or MRI and we will advise you if these are required. Contact us at 541-636-1191 to schedule a lameness investigation appointment today.
+</p>
+</div>
       
                     
       <iframe 
@@ -89,9 +71,7 @@ function Lameness() {
       
       
    
-      <row>
-    <h3>Aditional Info</h3>
-    </row>
+
  
     </div>
 </animated.div>

@@ -1,23 +1,26 @@
 import React from "react";
-import { Navbar, Nav } from "react-bootstrap";
-import logo from "./images/MMVS Logo graded.jpg";
+import { Navbar, Nav, Button} from "react-bootstrap";
+import logo from "./images/MMVS Logo graded.png";
 import { LinkContainer } from "react-router-bootstrap";
 import { Container } from "react-bootstrap";
 
 function headers() {
   return (
     <header>
-      <Navbar collapseOnSelect bg="light" expand="lg" fixed="top">
+      <Navbar collapseOnSelect bg="light" expand="lg" fixed="top" style={{ padding: '5px' }} >
       <Container>
-        <LinkContainer to="/">
-          <Nav.Link>
-            <img src={logo} height="50px" />
+        <LinkContainer to="/" style={{ paddingtop: '0px',paddingbottom: '0px' }}>
+          <Nav.Link >
+            <img src={logo} height="80px" />
           </Nav.Link>
         </LinkContainer>
 
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto my-2 my-lg-0">
+          <LinkContainer to="/Staff">
+              <Nav.Link>Staff</Nav.Link>
+            </LinkContainer>
             <LinkContainer to="/Equine_Services">
               <Nav.Link>Equine Services</Nav.Link>
             </LinkContainer>
@@ -40,8 +43,13 @@ function headers() {
               Pharmacy
             </Nav.Link>
           </Nav>
+          <LinkContainer to="/Contact">
+          <Button variant="danger">emergencies</Button>
+          </LinkContainer>
         </Navbar.Collapse>
+        
         </Container>
+        
       </Navbar>
     </header>
   );

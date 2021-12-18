@@ -24,11 +24,10 @@ function Features() {
               <h3>A mobile vet</h3>
               <h3>you can trust</h3>
               <p>
-                Serving Southern Oregon and Northern California with companion
-                animal,{" "}
+              Serving Jackson, Josephine and Siskiyou Counties with companion animal, livestock and equine care
               </p>
 
-              <p>livestock and equine care</p>
+              
               <Link to="/Contact">Contact Us</Link>
             </div>
           </section>

@@ -35,7 +35,7 @@ function Footer() {
           <p>< a href="https://www.google.com/maps/place/Massie+Mobile+Veterinary+Services/@42.271785,-122.8807619,17z/data=!3m1!4b1!4m5!3m4!1s0x54cf77093b2c0001:0xa9541755627cdee9!8m2!3d42.2716603!4d-122.8784969">Medford, OR 97501</a></p>
         </div>
         <div class="col">
-          <h3>legal info:</h3>
+          <h3>Helpful Info:</h3>
           <p>
           <a href="https://drive.google.com/drive/folders/18cjycwx35A0RmAaWgONv-nqPq8PkteDl?usp=sharing">Press Kit</a>
           </p>
