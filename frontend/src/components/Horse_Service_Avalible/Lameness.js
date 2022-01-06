@@ -13,7 +13,7 @@ function Lameness() {
   return (
     <animated.div style={props1}>
     <div class="article d-none d-xl-block" >
-    <h1 >Appointment Types</h1>
+    <h1 >Lameness</h1>
       <Row >
       
       <Col>

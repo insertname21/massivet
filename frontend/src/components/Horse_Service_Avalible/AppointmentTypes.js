@@ -55,21 +55,7 @@ Please note that a standard visit fee is applied to emergency visits during norm
 
 </Col>
       
-                 <Col >
-                 
-                 
-      <iframe 
-        overflow= "auto"
-        width="750px"
-        height="400px"
-        src="https://www.youtube.com/embed/M98VPRpRBDw"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-      
-      </Col>
+                
       
       </Row>
  

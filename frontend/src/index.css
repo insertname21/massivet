@@ -172,6 +172,7 @@ header {
 .article {
   padding-top: 150px;
   margin-left: 5%;
+  margin-right: 5%;
 
   position: relative;
   min-height: 90%;

@@ -72,7 +72,7 @@ function Equine_Services() {
  </Card.Text>
     <div class="text">
                 
-                <Link to={`/Equine_Services/LamenessInvestigation`}>More Info</Link>
+                <Link to={`/Equine_Services/EquineFirstAid`}>More Info</Link>
               </div>
     </Card.Body>
   </Card>
@@ -89,7 +89,7 @@ function Equine_Services() {
  </Card.Text>
     <div class="text">
                 
-                <Link to={`/Equine_Services/LamenessInvestigation`}>More Info</Link>
+                <Link to={`/Equine_Services/BehaviorConsultations`}>More Info</Link>
               </div>
     </Card.Body>
   </Card>
@@ -108,7 +108,7 @@ function Equine_Services() {
  </Card.Text>
     <div class="text">
                 
-                <Link to={`/Equine_Services/LamenessInvestigation`}>More Info</Link>
+                <Link to={`/Equine_Services/Podiatry`}>More Info</Link>
               </div>
     </Card.Body>
   </Card>
@@ -128,7 +128,7 @@ function Equine_Services() {
  </Card.Text>
     <div class="text">
                 
-                <Link to={`/Equine_Services/LamenessInvestigation`}>More Info</Link>
+                <Link to={`/Equine_Services/Castration`}>More Info</Link>
               </div>
     </Card.Body>
   </Card>
@@ -145,7 +145,7 @@ function Equine_Services() {
  </Card.Text>
     <div class="text">
                 
-                <Link to={`/Equine_Services/LamenessInvestigation`}>More Info</Link>
+                <Link to={`/Equine_Services/NaturalDentistry`}>More Info</Link>
               </div>
     </Card.Body>
   </Card>
@@ -162,7 +162,7 @@ function Equine_Services() {
     </Card.Text>
     <div class="text">
                 
-                <Link to={`/Equine_Services/LamenessInvestigation`}>More Info</Link>
+                <Link to={`/Equine_Services/WormingProgram`}>More Info</Link>
               </div>
     </Card.Body>
   </Card>
@@ -198,7 +198,7 @@ function Equine_Services() {
     </Card.Text>
     <div class="text">
                 
-                <Link to={`/Equine_Services/LamenessInvestigation`}>More Info</Link>
+                <Link to={`/Equine_Services/InternalMedicine`}>More Info</Link>
               </div>
     </Card.Body>
   </Card>
@@ -216,7 +216,7 @@ function Equine_Services() {
     </Card.Text>
     <div class="text">
                 
-                <Link to={`/Equine_Services/LamenessInvestigation`}>More Info</Link>
+                <Link to={`/Equine_Services/BodyWork`}>More Info</Link>
               </div>
     </Card.Body>
   </Card>
@@ -235,7 +235,7 @@ function Equine_Services() {
     </Card.Text>
     <div class="text">
                 
-                <Link to={`/Equine_Services/LamenessInvestigation`}>More Info</Link>
+                <Link to={`/Equine_Services/Microchipping`}>More Info</Link>
               </div>
     </Card.Body>
   </Card>
@@ -255,7 +255,7 @@ function Equine_Services() {
     </Card.Text>
     <div class="text">
                 
-                <Link to={`/Equine_Services/LamenessInvestigation`}>More Info</Link>
+                <Link to={`/Equine_Services/EndofLifeCare`}>More Info</Link>
               </div>
     </Card.Body>
   </Card>
