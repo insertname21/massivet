@@ -17,7 +17,7 @@ function Staff() {
         <Row>
 <div class="col-md-4">
   
-  <img src="/images/File_000.jpeg" class="img-fluid" alt="Responsive image" ></img>
+  <img src="/images/File_000.jpg" class="img-fluid" alt="Responsive image" ></img>
 </div>
 <div class="col-md-8">
   <h2>DR. MASSIE</h2>
