@@ -34,7 +34,7 @@ function Equine_Services() {
 
 
     <Card border="dark"style={{ width: '18rem', height: '20rem' }} className="rounded p-3 my-3">
-    <Card.Img variant="top" src="/images/wormtest.jpeg" style={{ height: '180px' }}/>
+    <Card.Img variant="top" src="/images/wormtest.jpg" style={{ height: '180px' }}/>
     <Card.Body>
     <Card.Title as="div">
       <strong>Worming Programme</strong>

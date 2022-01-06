@@ -152,7 +152,7 @@ function Equine_Services() {
 
 {/* Worming Program*/}
 <Card   style={{ width: '18rem', padding: '0px', marginTop: '5px', marginBottom: '5px', }} className="rounded">
-    <Card.Img variant="top" src="/images/wormtest.jpeg" style={{ height: '180px' }}/>
+    <Card.Img variant="top" src="/images/wormtest.jpg" style={{ height: '180px' }}/>
     <Card.Body>
     <Card.Title>
       <h3>Worming Program</h3>
@@ -169,7 +169,7 @@ function Equine_Services() {
   
   {/* Lameness Investigations*/}
 <Card   style={{ width: '18rem', padding: '0px', marginTop: '5px', marginBottom: '5px', }} className="rounded">
-    <Card.Img variant="top" src="/images/wormtest.jpeg" style={{ height: '180px' }}/>
+    <Card.Img variant="top" src="/images/wormtest.jpg" style={{ height: '180px' }}/>
     <Card.Body>
     <Card.Title>
       <h3>Lameness Investigations</h3>
@@ -186,7 +186,7 @@ function Equine_Services() {
   
   {/* Internal Medicine*/}
   <Card   style={{ width: '18rem', padding: '0px', marginTop: '5px', marginBottom: '5px', }} className="rounded">
-    <Card.Img variant="top" src="/images/wormtest.jpeg" style={{ height: '180px' }}/>
+    <Card.Img variant="top" src="/images/wormtest.jpg" style={{ height: '180px' }}/>
     <Card.Body>
     <Card.Title>
       <h3>Internal Medicine</h3>
@@ -205,7 +205,7 @@ function Equine_Services() {
 
   {/* Body Work*/}
   <Card   style={{ width: '18rem', padding: '0px', marginTop: '5px', marginBottom: '5px', }} className="rounded">
-    <Card.Img variant="top" src="/images/wormtest.jpeg" style={{ height: '180px' }}/>
+    <Card.Img variant="top" src="/images/wormtest.jpg" style={{ height: '180px' }}/>
     <Card.Body>
     <Card.Title>
       <h3>Body Work</h3>
@@ -224,7 +224,7 @@ function Equine_Services() {
 
   {/* Microchipping*/}
   <Card   style={{ width: '18rem', padding: '0px', marginTop: '5px', marginBottom: '5px', }} className="rounded">
-    <Card.Img variant="top" src="/images/wormtest.jpeg" style={{ height: '180px' }}/>
+    <Card.Img variant="top" src="/images/wormtest.jpg" style={{ height: '180px' }}/>
     <Card.Body>
     <Card.Title>
       <h3>Microchipping</h3>
