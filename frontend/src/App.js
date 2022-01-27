@@ -1,15 +1,15 @@
 import { Container } from "react-bootstrap";
 import * as React from 'react'
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Features from "./components/Features";
-import Equine_Services from "./components/Equine_Services_Page";
-import Farm_Services from "./components/Farm_Animal_Services_Page.js";
+import Header from "./components/basicpages/Header";
+import Footer from "./components/basicpages/Footer";
+import Home from "./components/basicpages/homepage";
+import Equine_Services from "./components/basicpages/Equine_Services_Page";
+import Farm_Services from "./components/basicpages/Farm_Animal_Services_Page.js";
 import Small_Services from "./components/Small_Animal_Services_Page.js";
 import New_Client from "./components/NewClient";
-import ContactUs from "./components/ContactUs";
-import Events from "./components/Events.js";
+import ContactUs from "./components/basicpages/ContactUs";
+import Events from "./components/basicpages/Events.js";
 import Staff from "./components/staff.js";
 import Lameness from "./components/Horse_Service_Avalible/Lameness.js";
 import Podiatry from "./components/Horse_Service_Avalible/Podiatry";
@@ -20,7 +20,6 @@ import InternalMedicine from "./components/Horse_Service_Avalible/InternalMedici
 import BodyWork from "./components/Horse_Service_Avalible/BodyWork";
 import Microchipping from "./components/Horse_Service_Avalible/Microchipping";
 import EndofLifeCare from "./components/Horse_Service_Avalible/EndofLifeCare";
-
 import Appointments from "./components/Horse_Service_Avalible/AppointmentTypes";
 import WellnessExams from "./components/Horse_Service_Avalible/WellnessExams";
 import PrePurchaseExams from "./components/Horse_Service_Avalible/Pre-PurchaseExams";
@@ -38,7 +37,7 @@ function App() {
       <ScrollToTop />
       <div id="main"> 
       <main className="py-20">
-          <Route path="/" component={Features} exact />
+          <Route path="/" component={Home} exact />
           <Route path="/Equine_Services" component={Equine_Services} exact />
           <Route path="/Farm_Services" component={Farm_Services} exact />
           <Route path="/Small_Animal_Services" component={Small_Services} exact />
