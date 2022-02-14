@@ -60,8 +60,7 @@ function App() {
           <Route path="/Equine_Services/Microchipping" component={Microchipping} exact />
           <Route path="/Equine_Services/EndofLifeCare" component={EndofLifeCare} exact />
           <Route path="/Equine_Services/Podiatry" component={Podiatry} exact />
-          <Route path="/Equine_Services/Podiatry" component={Podiatry} exact />
-          <Route path="/Equine_Services/Podiatry" component={Podiatry} exact />
+
 
       </main>
       

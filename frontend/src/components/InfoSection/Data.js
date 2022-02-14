@@ -76,6 +76,7 @@ export const staff1 = {
   primary: false,
   darkText: true
 };
+
 export const staff2 = {
   id: 'staff2',
   lightBg: false,
@@ -99,3 +100,58 @@ export const staff2 = {
   primary: false,
   darkText: true
 };
+
+export const endoflife1 = {
+  id: 'endoflife1',
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: '',
+  headline: 'end of life care',
+  description1:
+    "Euthanasia is a difficult subject to consider, but our aim is to help support and provide dignified end of life care for your animal. With this in mind, we’ve put together helpful tips and resources for when it comes time to make the decision. ",
+    
+  buttonLabel: 'Start Now',
+  imgStart: false,
+  img: ("./images/Andria-Watson-Massie-modified.png"),
+  alt: 'Papers',
+  dark: false,
+  primary: false,
+  darkText: true
+};
+export const endoflife2 = {
+  id: 'endoflife2',
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: '',
+  headline: 'How Will You Know When the Time is Right?',
+  description1:
+    "Although some euthenasia decisions are made as a result of an emergency, it is usually an elective decision based on a chronic decline in health, often associated with age. At Massie Mobile Veterinary Services, our primary concern is your animal’s overall quality of life. We have an outsider’s perspective that an owner, who sees their animal every day and may be less likely to notice gradual changes, may not have.  ",
+    description2:
+    "Therefore, it may be prudent to consider the following questions about your animal’s overall quality of care to determine if euthenasia is the best option for your animal’s wellbeing:",
+    
+  buttonLabel: 'Start Now',
+  imgStart: false,
+  img: ("./images/Andria-Watson-Massie-modified.png"),
+  alt: 'Papers',
+  dark: false,
+  primary: false,
+  darkText: true
+};
+export const PrePurchase = {
+  id: 'PrePurchase',
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: '',
+  headline: 'Pre-Purchase Exams',
+  description1:
+    "Dr. Massie regularly performs pre-purchase exams for buyers who are looking for a mount that meets their recreational or performance goals.",
+    description2:
+    "A pre-purchase examination surveys the horse’s performance and health status prior to purchase so that buyers can make an informed decision on whether or not to proceed. It provides an assessment of any foreseeable problems, but does not guarantee that a horse will remain clinically sound during the remainder of its life. All examinations will be summarised in a written report for the client.",
+    description3:
+    "The evaluation takes up to two hours and offers a top-down physical and manual examination that includes checking the horse’s eyes, teeth, heart, lungs, and legs. We will perform flexion tests after analyzing the horse’s movement during both on-the-ground and ridden exercises. During the recovery phase, when the horse might experience stiffness, we will assess if there are any problems and finish up with taking blood samples, if necessary, to test for the presence of pain-killers or sedatives. Radiographs are also offered for the buyer to weigh soundness concerns.",
+    description4:
+    "To schedule a pre-purchase exam, please text or call us at 541-636-1191.",
+  };

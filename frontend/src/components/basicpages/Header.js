@@ -32,8 +32,12 @@ function headers() {
 
               
               <NavDropdown title="Equine" id="nav-dropdown">
-              <LinkContainer to="/Equine_Services"><NavDropdown.Item>Action</NavDropdown.Item></LinkContainer>
-        <NavDropdown.Item eventKey="4.2">Another action</NavDropdown.Item>
+              <LinkContainer to="/Equine_Services/WellnessExams"><NavDropdown.Item>Wellness Plans and Exams</NavDropdown.Item></LinkContainer>
+              <LinkContainer to="/Equine_Services/PrePurchaseExams"><NavDropdown.Item>Pre-Purchase Exams</NavDropdown.Item></LinkContainer>
+              <LinkContainer to="/Equine_Services/EquineFirstAid"><NavDropdown.Item>Equine First-Aid Clinics</NavDropdown.Item></LinkContainer>
+              <LinkContainer to="/Equine_Services/BehaviorConsultations"><NavDropdown.Item>Behavior Consultations</NavDropdown.Item></LinkContainer>
+              <LinkContainer to="/Equine_Services/Podiatry"><NavDropdown.Item>Podiatry</NavDropdown.Item></LinkContainer>
+
         <NavDropdown.Item eventKey="4.3">Something else here</NavDropdown.Item>
         <NavDropdown.Divider />
         <NavDropdown.Item eventKey="4.4">Separated link</NavDropdown.Item>
